@@ -10,7 +10,8 @@
 </head>
 
 <body>
-    <!--NAVBAR-->
+    <div class="container">
+         <!--NAVBAR-->
     <header class="header">
         <div class="logo"><img src="assets/Logo.png" alt="logo image"></div>
         <nav class="nav">
@@ -20,7 +21,6 @@
                 <a>pricing</a>
                 <a>Blog</a>
                 <a><button>Request a quote</button></a>
-            
         </nav>
     </header>
     <!--hero-section-->
@@ -57,7 +57,7 @@
             </div>
         </section>
         <section class="cards">
-            <div class="container">
+            <div class="cards-container">
                 
                     <!--Search-engine-optimization-card-->
                     <div class="Search-engine-optimization-card">
@@ -195,11 +195,11 @@
     <!--footer-->
     <footer class="footer">
             <div class="footer-top">
-                <div class="footer-logo"> <img src="assets/Logo.png" alt="footer logo image"></div>
+                <div class="footer-logo"> <img src="assets/Logo.png"> Positivus</div>
                 <nav class="footer-nav">
-                    <a href="#">Services</a>
-                    <a href="#">About</a>
-                    <a href="#">Contact</a>
+                    <a><u>Services</u></a>
+                    <a><u>About</u></a>
+                    <a><u>Contact</u></a>
                 </nav>
                 <div class="social-icons">
                     <a href="#"><img src="assets/linkedin.svg" alt="LinkedIn"></a>
@@ -207,23 +207,26 @@
                     <a href="#"><img src="assets/twitter.svg" alt="Twitter"></a>
                 </div>
             </div>
-            <div class="left">
+            <div class="contact"> 
+                <div class="contact-details">
                     <h4 class="contact-text">Contact us:</h4>
-                    <p>Email: info@positivus.com 
+                    <p>Email: info@positivus.com
                         <br>Phone: 555-567-8901
                         <br>Address: 1234 Main St
                         <br>Moonstone City, Stardust State 12345
                     </p>
+                </div>
+                    <form class="contact-us-form">
+                        <input type="email" placeholder="Email" class="email-box">
+                        <button type="submit" class="Subscribe-to-news-button">Subscribe to news</button>
+                    </form>
             </div>
-            <div class="right">
-                <form class="contact-us-form">
-                    <input type="email" placeholder="Email" class="email-box">
-                    <button type="submit" class="Subscribe-to-news-button">Subscribe to news</button>
-                </form>
-            </div>
+            <hr>
         <div class="footer-bottom">
-            <p>© 2025 Positivus. All rights reserved</p>
+            <p>© 2025 Positivus. All rights reserved.</p>
+            <a href="#" class="Privacy-Policy">Privacy Policy</a>
         </div>
     </footer>
+    </div>
 </body>
 </html>
